@@ -1,12 +1,12 @@
-function isEven(number){
-    if (number % 2 == 0){
-        return true;
-    }
-    return false;
-}
-const myNumber = 145;
-var isEvenNumber = isEven (myNumber);
-console.log(isEvenNumber);
+// function isEven(number){
+//     if (number % 2 == 0){
+//         return true;
+//     }
+//     return false;
+// }
+// const myNumber = 145;
+// var isEvenNumber = isEven (myNumber);
+// console.log(isEvenNumber);
 
 
 
@@ -17,6 +17,6 @@ function isOdd(number){
     }
     return false;
 }
-const oddNumber = 122;
+const oddNumber = 123;
 var myOddnumber = isOdd(oddNumber);
 console.log(myOddnumber);
