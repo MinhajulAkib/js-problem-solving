@@ -1,28 +1,26 @@
- absoulate number
+ //absoulate number
  const myNumber = -5;
  const output = Math.abs(myNumber);
  console.log(output);
 
- ceil
+ //ceil
  const myNumber = 22.9999;
  const output = Math.ceil(myNumber);
  console.log(output);
 
- floor
+ //floor
  const myNumber = 22.9999;
  const output = Math.floor(myNumber);
  console.log(output);
 
 
-round
-ceil
+//round
 const myNumber = 22.9999;
 const output = Math.round(myNumber);
 console.log(output);
 
 
-random
-ceil
+//random
 const myNumber = 7;
 const output = Math.random(myNumber) * 10;
 console.log(output);
