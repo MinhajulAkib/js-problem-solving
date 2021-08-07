@@ -1,14 +1,15 @@
 function largestNumber(first,second,third){
+
     if(first > second && first > third){
-        console.log('first is grester');
+        return first;
     } 
     else if(second > first && second > third){
-        console.log('second is greater');
+        return second;
     }
     else{
-        console.log('third is grester');
+        return third;
     }
-    
+
 }
-const largest = largestNumber(12,14,16);
+var largest = largestNumber(12, 14, 16);
 console.log(largest);
