@@ -24,5 +24,5 @@ function fibonacciSeries(num) {
     }
     return fibo;
 }
-const fiboSeries = fibonacciSeries([234]);
+const fiboSeries = fibonacciSeries(30);
 console.log(fiboSeries);
