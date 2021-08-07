@@ -17,12 +17,31 @@ ith = (i-1)th + (i-2)th
 // }
 // console.log(fibo);
 
+// function fibonacciSeries(num) {
+//     const fibo = [0, 1];
+//     for (let i = 2; i <= num; i++) {
+//         fibo[i] = fibo[i - 1] + fibo[i - 2];
+//     }
+//     return fibo;
+// }
+// const fiboSeries = fibonacciSeries(30);
+// console.log(fiboSeries);
+
+
+
 function fibonacciSeries(num) {
+    if (typeof num != 'number') {
+        return 'Please give a number';
+    }
+    if (num < 2) {
+        return 'Please enter a positive number greater than 1'
+    }
     const fibo = [0, 1];
-    for (let i = 2; i <= num; i++) {
+    for (let i = 2; i < num; i++) {
         fibo[i] = fibo[i - 1] + fibo[i - 2];
     }
     return fibo;
 }
-const fiboSeries = fibonacciSeries(30);
+
+const fiboSeries = fibonacciSeries(13);
 console.log(fiboSeries);
