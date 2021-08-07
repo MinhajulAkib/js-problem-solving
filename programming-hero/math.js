@@ -4,6 +4,11 @@
 //  console.log(output);
 
  //ceil
+//  const myNumber = 22.9999;
+//  const output = Math.ceil(myNumber);
+//  console.log(output);
+
+ //floor
  const myNumber = 22.9999;
- const output = Math.ceil(myNumber);
+ const output = Math.floor(myNumber);
  console.log(output);
