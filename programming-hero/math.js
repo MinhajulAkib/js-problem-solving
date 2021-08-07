@@ -9,6 +9,13 @@
 //  console.log(output);
 
  //floor
- const myNumber = 22.9999;
- const output = Math.floor(myNumber);
- console.log(output);
+//  const myNumber = 22.9999;
+//  const output = Math.floor(myNumber);
+//  console.log(output);
+
+
+//round
+//ceil
+const myNumber = 22.9999;
+const output = Math.round(myNumber);
+console.log(output);
