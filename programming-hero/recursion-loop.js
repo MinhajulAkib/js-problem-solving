@@ -1,0 +1,11 @@
+//1-6 print using for loop
+for(i = 1; i <=6; i++){
+    console.log(i);
+}
+
+//sum all input
+let sum = 0;
+for(let i = 1; i<= 6; i++){
+    sum = sum +i;
+}
+console.log(sum);
