@@ -6,9 +6,16 @@ const products = [
     { name: 'sapple', price: 10000},
     { name: 'lg smart watch', price: 100},
 ];
+// for(const product of products){
+//     if(product.price < 10000){
+//         break;
+//     }
+//     console.log(product);
+// }
+
 for(const product of products){
     if(product.price < 10000){
-        break;
+        continue;
     }
     console.log(product);
 }
